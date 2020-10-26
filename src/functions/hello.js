@@ -5,7 +5,7 @@ export const handler = async event => {
     statusCode: 200,
     body: {
       message: 'Hello Gatsby!',
-      day: format(new Date(), "'Today is a' iiii")
+      day: format(new Date(), "'Today is' iiii")
     }
   };
 };
