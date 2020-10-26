@@ -1,0 +1,10 @@
+[[plugins]]
+package = "netlify-plugin-nimbella"
+[plugins.inputs]
+functions = "src/functions"
+path = "/functions/"
+
+[build]
+  base = "."
+  publish = "public"
+  command = "yarn build"
